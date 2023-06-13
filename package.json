@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "name": "nextjs-monorepo-vanilla-extract",
+  "packageManager": "yarn@3.6.0",
+  "workspaces": [
+    "apps/*"
+  ]
+}
