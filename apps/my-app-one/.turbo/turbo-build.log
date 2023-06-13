@@ -1,0 +1,34 @@
+- info Creating an optimized production build...
+- info Compiled successfully
+- info Linting and checking validity of types...
+- error ESLint must be installed in order to run during builds: yarn add --dev eslint
+- info Collecting page data...
+(node:56765) [MODULE_NOT_FOUND] Error: @types/react tried to access scheduler, but it isn't declared in its dependencies; this makes the require call ambiguous and unsound.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:56765) [MODULE_NOT_FOUND] Error: @types/react-dom tried to access react, but it isn't declared in its dependencies; this makes the require call ambiguous and unsound.
+- info Generating static pages (0/4)
+- info Generating static pages (1/4)
+- info Generating static pages (2/4)
+- info Generating static pages (3/4)
+- info Generating static pages (4/4)
+- info Finalizing page optimization...
+
+Route (app)                                Size     First Load JS
+┌ ○ /                                      4.94 kB        82.1 kB
+└ ○ /favicon.ico                           0 B                0 B
++ First Load JS shared by all              77.1 kB
+  ├ chunks/51bc0004-924d2e495641b967.js    50.5 kB
+  ├ chunks/67-658b39569ace89ef.js          24.7 kB
+  ├ chunks/main-app-10e7bf851e41fbc1.js    209 B
+  └ chunks/webpack-a71e0afe4755ac1d.js     1.68 kB
+
+Route (pages)                              Size     First Load JS
+─ ○ /404                                   182 B          74.9 kB
++ First Load JS shared by all              74.7 kB
+  ├ chunks/framework-6dcfea47811d4907.js   45.1 kB
+  ├ chunks/main-8b7c3a819b85629c.js        27.8 kB
+  ├ chunks/pages/_app-0ee99a2fe8d5157b.js  194 B
+  └ chunks/webpack-a71e0afe4755ac1d.js     1.68 kB
+
+○  (Static)  automatically rendered as static HTML (uses no initial props)
+

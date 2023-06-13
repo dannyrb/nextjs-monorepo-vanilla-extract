@@ -4,5 +4,12 @@
   "packageManager": "yarn@3.6.0",
   "workspaces": [
     "apps/*"
-  ]
+  ],
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build"
+  },
+  "devDependencies": {
+    "turbo": "^1.10.3"
+  }
 }
