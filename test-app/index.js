@@ -1,0 +1,1 @@
+module.exports = "Wow, cool";
