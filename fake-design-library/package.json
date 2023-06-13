@@ -1,5 +1,5 @@
 {
-  "name": "test-app",
+  "name": "fake-design-library",
   "version": "2.1.3",
   "description": "testt",
   "main": "./index.js",
@@ -14,5 +14,8 @@
     "@vanilla-extract/next-plugin": "^2.0.2",
     "@vanilla-extract/sprinkles": "^1.3.3",
     "@vanilla-extract/webpack-plugin": "^2.1.10"
+  },
+  "peerDependencies": {
+    "next": ">=13.4.4"
   }
 }

@@ -1621,6 +1621,54 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fake-design-library@file:../../fake-design-library::locator=my-app-one%40workspace%3Aapps%2Fmy-app-one":
+  version: 2.1.3
+  resolution: "fake-design-library@file:../../fake-design-library#../../fake-design-library::hash=2a7750&locator=my-app-one%40workspace%3Aapps%2Fmy-app-one"
+  dependencies:
+    "@vanilla-extract/babel-plugin": ^1.1.6
+    "@vanilla-extract/css": ^1.6.8
+    "@vanilla-extract/dynamic": ^2.0.2
+    "@vanilla-extract/next-plugin": ^2.0.2
+    "@vanilla-extract/sprinkles": ^1.3.3
+    "@vanilla-extract/webpack-plugin": ^2.1.10
+  peerDependencies:
+    next: 13.4.6
+  checksum: 20f743e4aea0008c8a13e7920a4cb4ace6386cc9f8264073991d704291624a157f2dc4639fae8d57e5deb3edfc2be34aca69b6f421a62f4acb4250572e7d896e
+  languageName: node
+  linkType: hard
+
+"fake-design-library@file:../../fake-design-library::locator=my-app-three%40workspace%3Aapps%2Fmy-app-three":
+  version: 2.1.3
+  resolution: "fake-design-library@file:../../fake-design-library#../../fake-design-library::hash=2a7750&locator=my-app-three%40workspace%3Aapps%2Fmy-app-three"
+  dependencies:
+    "@vanilla-extract/babel-plugin": ^1.1.6
+    "@vanilla-extract/css": ^1.6.8
+    "@vanilla-extract/dynamic": ^2.0.2
+    "@vanilla-extract/next-plugin": ^2.0.2
+    "@vanilla-extract/sprinkles": ^1.3.3
+    "@vanilla-extract/webpack-plugin": ^2.1.10
+  peerDependencies:
+    next: 13.4.6
+  checksum: 20f743e4aea0008c8a13e7920a4cb4ace6386cc9f8264073991d704291624a157f2dc4639fae8d57e5deb3edfc2be34aca69b6f421a62f4acb4250572e7d896e
+  languageName: node
+  linkType: hard
+
+"fake-design-library@file:../../fake-design-library::locator=my-app-two%40workspace%3Aapps%2Fmy-app-two":
+  version: 2.1.3
+  resolution: "fake-design-library@file:../../fake-design-library#../../fake-design-library::hash=2a7750&locator=my-app-two%40workspace%3Aapps%2Fmy-app-two"
+  dependencies:
+    "@vanilla-extract/babel-plugin": ^1.1.6
+    "@vanilla-extract/css": ^1.6.8
+    "@vanilla-extract/dynamic": ^2.0.2
+    "@vanilla-extract/next-plugin": ^2.0.2
+    "@vanilla-extract/sprinkles": ^1.3.3
+    "@vanilla-extract/webpack-plugin": ^2.1.10
+  peerDependencies:
+    next: 13.4.6
+  checksum: 20f743e4aea0008c8a13e7920a4cb4ace6386cc9f8264073991d704291624a157f2dc4639fae8d57e5deb3edfc2be34aca69b6f421a62f4acb4250572e7d896e
+  languageName: node
+  linkType: hard
+
 "find-up@npm:^5.0.0":
   version: 5.0.0
   resolution: "find-up@npm:5.0.0"
@@ -2182,10 +2230,10 @@ __metadata:
     "@types/node": ^12.12.21
     "@types/react": ^17.0.2
     "@types/react-dom": ^17.0.1
+    fake-design-library: "file:../../fake-design-library"
     next: 13.4.4
     react: ^18.2.0
     react-dom: ^18.2.0
-    test-app: "file:../../test-app"
     typescript: ^4.8.3
   languageName: unknown
   linkType: soft
@@ -2197,10 +2245,10 @@ __metadata:
     "@types/node": ^12.12.21
     "@types/react": ^17.0.2
     "@types/react-dom": ^17.0.1
+    fake-design-library: "file:../../fake-design-library"
     next: 13.4.4
     react: ^18.2.0
     react-dom: ^18.2.0
-    test-app: "file:../../test-app"
     typescript: ^4.8.3
   languageName: unknown
   linkType: soft
@@ -2212,10 +2260,10 @@ __metadata:
     "@types/node": ^12.12.21
     "@types/react": ^17.0.2
     "@types/react-dom": ^17.0.1
+    fake-design-library: "file:../../fake-design-library"
     next: 13.4.5
     react: ^18.2.0
     react-dom: ^18.2.0
-    test-app: "file:../../test-app"
     typescript: ^4.8.3
   languageName: unknown
   linkType: soft
@@ -2863,48 +2911,6 @@ __metadata:
     mkdirp: ^1.0.3
     yallist: ^4.0.0
   checksum: f23832fceeba7578bf31907aac744ae21e74a66f4a17a9e94507acf460e48f6db598c7023882db33bab75b80e027c21f276d405e4a0322d58f51c7088d428268
-  languageName: node
-  linkType: hard
-
-"test-app@file:../../test-app::locator=my-app-one%40workspace%3Aapps%2Fmy-app-one":
-  version: 2.1.3
-  resolution: "test-app@file:../../test-app#../../test-app::hash=ee381a&locator=my-app-one%40workspace%3Aapps%2Fmy-app-one"
-  dependencies:
-    "@vanilla-extract/babel-plugin": ^1.1.6
-    "@vanilla-extract/css": ^1.6.8
-    "@vanilla-extract/dynamic": ^2.0.2
-    "@vanilla-extract/next-plugin": ^2.0.2
-    "@vanilla-extract/sprinkles": ^1.3.3
-    "@vanilla-extract/webpack-plugin": ^2.1.10
-  checksum: 77666b479b2157ed5dbf4b0f5489ee4a75e221ff5e1555e40b1c2461617ac0be6314e732ad811299f6dd1769e1f42045f1529e13b6fdde857968f6ec8c8cecf6
-  languageName: node
-  linkType: hard
-
-"test-app@file:../../test-app::locator=my-app-three%40workspace%3Aapps%2Fmy-app-three":
-  version: 2.1.3
-  resolution: "test-app@file:../../test-app#../../test-app::hash=ee381a&locator=my-app-three%40workspace%3Aapps%2Fmy-app-three"
-  dependencies:
-    "@vanilla-extract/babel-plugin": ^1.1.6
-    "@vanilla-extract/css": ^1.6.8
-    "@vanilla-extract/dynamic": ^2.0.2
-    "@vanilla-extract/next-plugin": ^2.0.2
-    "@vanilla-extract/sprinkles": ^1.3.3
-    "@vanilla-extract/webpack-plugin": ^2.1.10
-  checksum: 77666b479b2157ed5dbf4b0f5489ee4a75e221ff5e1555e40b1c2461617ac0be6314e732ad811299f6dd1769e1f42045f1529e13b6fdde857968f6ec8c8cecf6
-  languageName: node
-  linkType: hard
-
-"test-app@file:../../test-app::locator=my-app-two%40workspace%3Aapps%2Fmy-app-two":
-  version: 2.1.3
-  resolution: "test-app@file:../../test-app#../../test-app::hash=ee381a&locator=my-app-two%40workspace%3Aapps%2Fmy-app-two"
-  dependencies:
-    "@vanilla-extract/babel-plugin": ^1.1.6
-    "@vanilla-extract/css": ^1.6.8
-    "@vanilla-extract/dynamic": ^2.0.2
-    "@vanilla-extract/next-plugin": ^2.0.2
-    "@vanilla-extract/sprinkles": ^1.3.3
-    "@vanilla-extract/webpack-plugin": ^2.1.10
-  checksum: 77666b479b2157ed5dbf4b0f5489ee4a75e221ff5e1555e40b1c2461617ac0be6314e732ad811299f6dd1769e1f42045f1529e13b6fdde857968f6ec8c8cecf6
   languageName: node
   linkType: hard
 
